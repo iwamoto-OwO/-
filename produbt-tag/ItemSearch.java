@@ -14,7 +14,7 @@ public class ItemSearch {
 	
 	public void search(String keyword) {
 		StringBuilder requestURL = new StringBuilder("https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601?");
-		requestURL.append("applicationId=" + "1087373096287122136");
+		requestURL.append("applicationId=" + "myID");
 		requestURL.append("&keyword=" + keyword);
 		//requestURL.append("&carrier=" + 0);
 		//RAKUTEN_API.append("&sort=" + "%2BitemPrice");
