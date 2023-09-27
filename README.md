@@ -1,2 +1,4 @@
 楽天APIを使用し、楽天の商品情報から頻出単語を抜き出してタグ付けするプログラムです。
 形態素解析にSudachiのsystem_core.dicを利用。
+
+利用のためにはsudachi.jsonとsystem_core.dicを./add-product-tag/に置き、ItemSeachクラスに楽天のapplicationIDを入れてください。
